@@ -1,0 +1,57 @@
+
+body{
+    background-color: gainsboro;
+}
+
+.container{
+    background-color: gray;
+    border-radius: 12px;
+  
+}
+
+h1{
+    text-align: center;
+    color:white;
+}
+.container-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+   
+}
+
+img{
+    max-width: 200px;
+    border-radius: 20px;
+    margin-top: 14px;
+}
+
+.containerSelect{
+    text-align: center;
+    margin-top: 16px;
+}
+
+.containerButton{
+    text-align: center;
+    margin-top: 5px;
+}
+button{
+    background: green;
+    border: none;
+    border-radius: 7px;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+input{
+    border: none;
+    padding: 9px;
+    border-radius: 7px;
+}
+select{
+    border: none;
+    padding: 9px;
+    border-radius: 7px;
+}
